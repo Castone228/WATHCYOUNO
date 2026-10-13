@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@400;700&display=swap');
+
+:root {
+    --marvel-red: #EC1D24;
+    --marvel-red-dark: #B81D21;
+    --marvel-yellow: #FFC93C;
+    --marvel-blue: #1E3A8A;
+    --marvel-blue-bright: #2563EB;
+    --ink-black: #000000;
+    --paper-bg: #F4F1DE;
+    --white: #FFFFFF;
+
+    /* Цвета качества */
+    --q-480p: #94A3B8;
+    --q-720p: #2563EB;
+    --q-1080p: #16A34A;
+    --q-1440p: #8B5CF6;
+    --q-4k: #D97706;
+    --q-other: #64748B;
+
+    --comic-border: 3px solid var(--ink-black);
+    --comic-shadow: 6px 6px 0 var(--ink-black);
+    --comic-shadow-lg: 10px 10px 0 var(--ink-black);
+    --comic-shadow-sm: 3px 3px 0 var(--ink-black);
+
+    --font-title: 'Bangers', 'Impact', 'Arial Black', system-ui, sans-serif;
+    --font-text: 'Comic Neue', 'Comic Sans MS', 'Chalkboard SE', cursive, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    font-family: var(--font-text);
+    background-color: var(--paper-bg);
+    background-image: radial-gradient(rgba(0,0,0,0.18) 1px, transparent 1px);
+    background-size: 14px 14px;
+    color: var(--ink-black);
+    min-height: 100vh;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.hidden { display: none !important; }
+
+@keyframes popIn {
+    0% { transform: scale(0.85) rotate(-2deg); opacity: 0; }
+    70% { transform: scale(1.03) rotate(1deg); }
+    100% { transform: scale(1) rotate(0); opacity: 1; }
+}
+@keyframes slideUp {
+    from { transform: translateY(24px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes pulse-ring {
+    0% { box-shadow: 0 0 0 0 rgba(236,29,36,0.7), 0 0 0 3px var(--ink-black), 4px 4px 0 rgba(0,0,0,0.5); }
+    70% { box-shadow: 0 0 0 14px rgba(236,29,36,0), 0 0 0 3px var(--ink-black), 4px 4px 0 rgba(0,0,0,0.5); }
+    100% { box-shadow: 0 0 0 0 rgba(236,29,36,0), 0 0 0 3px var(--ink-black), 4px 4px 0 rgba(0,0,0,0.5); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * { animation: none !important; transition: none !important; }
+}

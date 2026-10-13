@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Хроника Марвел</title>
+<link rel="stylesheet" href="/css/tokens.css">
+<link rel="stylesheet" href="/css/layout.css">
+<link rel="stylesheet" href="/css/components.css">
+</head>
+<body>
+<header class="header">
+    <div class="logo">WatchYouNO</div>
+    <div class="header-actions">
+        <select id="lang-switcher" class="select-clean small">
+            <option value="ru">RU</option>
+            <option value="en">EN</option>
+        </select>
+        <button id="btn-base" class="btn btn-ghost btn-small"><span>{ } База / JSON</span></button>
+        <button id="btn-add" class="btn btn-accent"><span>＋ Добавить</span></button>
+    </div>
+</header>
+
+<main class="main-container">
+    <section class="stats-row">
+        <div class="stat-chip"><span class="stat-num" id="stat-total">0</span><span class="stat-lbl">всего</span></div>
+        <div class="stat-chip watched-chip"><span class="stat-num" id="stat-watched">0</span><span class="stat-lbl">смотрено</span></div>
+        <div class="stat-chip unwatched-chip"><span class="stat-num" id="stat-unwatched">0</span><span class="stat-lbl">осталось</span></div>
+        <div class="stat-chip upcoming-chip"><span class="stat-num" id="stat-upcoming">0</span><span class="stat-lbl">скоро</span></div>
+        <div class="stat-chip progress-chip">
+            <div class="progress-wrap"><div class="progress-bar" id="progress-bar"></div></div>
+            <span class="stat-lbl" id="progress-text">0% коллекции закрыто</span>
+        </div>
+    </section>
+
+    <section id="next-up-section" class="next-up hidden">
+        <div class="next-up-label">▶ следующий к просмотру</div>
+        <div id="next-up-card" class="next-up-card"></div>
+    </section>
+
+    <section class="toolbar">
+        <div class="search-row">
+            <input type="text" id="search-input" class="search-input" placeholder="Поиск...">
+        </div>
+        <div class="filter-group">
+            <span class="filter-lbl">Статус:</span>
+            <select id="filter-watched" class="select-clean">
+                <option value="all">Все</option>
+                <option value="true">Смотрено</option>
+                <option value="false">Не смотрено</option>
+            </select>
+            <button id="filter-installed" class="chip" title="Показать только фильмы с установленным файлом">📁 Установлен</button>
+        </div>
+        <div class="filter-group">
+            <span class="filter-lbl">Тип:</span>
+            <select id="filter-type" class="select-clean">
+                <option value="all">Все</option>
+                <option value="movie">Фильмы</option>
+                <option value="series">Сериалы</option>
+                <option value="cartoon">Мультфильмы</option>
+                <option value="anime">Аниме</option>
+            </select>
+        </div>
+        <div class="filter-group">
+            <span class="filter-lbl">Сортировка:</span>
+            <select id="sort-by" class="select-clean">
+                <option value="createdAt">По дате добавления</option>
+                <option value="timeline">Хронология вселенной</option>
+                <option value="year">По дате выхода</option>
+                <option value="title_ru">По алфавиту</option>
+                <option value="quality">По качеству</option>
+            </select>
+            <button id="sort-order" class="btn btn-icon btn-ghost" title="Направление сортировки"><span>↓</span></button>
+        </div>
+        <div class="filter-group">
+            <span class="filter-lbl">Вид:</span>
+            <button class="btn btn-icon btn-ghost btn-view active" data-view="grid" title="Сетка"><span>▦</span></button>
+            <button class="btn btn-icon btn-ghost btn-view" data-view="list" title="Список"><span>☰</span></button>
+        </div>
+    </section>
+
+    <section id="catalog-container" class="catalog-grid"></section>
+
+    <footer class="footer">
+        <p>Фанатский трекер. Отметки, фильмы, вселенные, франшизы и категории хранятся в формате JSON: кнопка «База / JSON» — просмотр, правка, скачивание и загрузка файла.</p>
+        <p>Все права на персонажей и фильмы принадлежат Marvel, Disney, Sony, 20th Century Fox и их владельцам.</p>
+    </footer>
+</main>
+
+<div id="modal-overlay" class="modal-overlay hidden">
+    <div id="modal-content" class="modal-panel"></div>
+</div>
+
+<div id="base-modal-overlay" class="modal-overlay base-modal hidden">
+    <div class="modal-panel">
+        <div class="modal-title">
+            <span>База данных / JSON</span>
+            <button class="modal-close" id="base-modal-close">✕</button>
+        </div>
+        <p style="font-size:13px; font-weight:700; margin-bottom:12px; opacity:0.8;">
+            Все фильмы, вселенные, франшизы, категории и отметки «смотрено» — один JSON.
+            Поля фильма: id, title_ru, title_en, year, timeline, era, universe, franchise, categories[], desc, watched, upcoming.
+            Правь прямо здесь и жми «Применить», либо скачай/загрузи файл.
+        </p>
+        <textarea id="base-json-textarea" class="base-json-textarea"></textarea>
+        <div class="base-actions">
+            <button id="base-apply" class="btn btn-accent btn-small"><span>Применить</span></button>
+            <button id="base-copy" class="btn btn-ghost btn-small"><span>Копировать</span></button>
+            <button id="base-download" class="btn btn-blue btn-small"><span>Скачать .json</span></button>
+            <button id="base-upload" class="btn btn-ghost btn-small"><span>Загрузить…</span></button>
+            <button id="base-reset" class="btn btn-danger btn-small"><span>Сброс к исходной</span></button>
+        </div>
+    </div>
+</div>
+
+<div id="player-overlay" class="player-overlay hidden">
+    <button id="close-player-btn" class="close-btn" title="Закрыть (Esc)">✕</button>
+    <div class="player-wrap">
+        <video id="video-element" class="video-element" playsinline></video>
+        <div class="player-controls" id="player-controls">
+            <button id="play-btn" class="ctrl-btn" title="Плей/Пауза (Space)">▶</button>
+            <input type="range" id="timeline" class="timeline" value="0" min="0" max="100" step="0.1">
+            <span id="time-display" class="time-display">00:00 / 00:00</span>
+            <button id="mute-btn" class="ctrl-btn" title="Звук (M)">🔊</button>
+            <input type="range" id="volume" class="volume" value="1" min="0" max="1" step="0.05">
+            <select id="speed-select" class="select-clean small">
+                <option value="0.75">0.75x</option>
+                <option value="1" selected>1x</option>
+                <option value="1.25">1.25x</option>
+                <option value="1.5">1.5x</option>
+                <option value="2">2x</option>
+            </select>
+            <button id="fullscreen-btn" class="ctrl-btn" title="Полный экран (F)">⛶</button>
+        </div>
+        <div id="unsupported-msg" class="unsupported hidden"></div>
+        <div id="mark-watched-toast" class="mark-watched-prompt hidden">
+            <div class="prompt-box">
+                <div class="prompt-title">Почти готово, герой! Отметить как просмотренное?</div>
+                <div class="prompt-actions">
+                    <button id="confirm-watched" class="btn btn-accent btn-small"><span>✓ Да</span></button>
+                    <button id="dismiss-watched" class="btn btn-ghost btn-small"><span>Позже</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<input type="file" id="import-file-input" accept=".json" style="display:none">
+
+<script type="module" src="/js/i18n.js"></script>
+<script type="module" src="/js/app.js"></script>
+</body>
+</html>

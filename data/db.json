@@ -1,0 +1,670 @@
+[
+  {
+    "id": "iron-man-2008",
+    "type": "movie",
+    "title_ru": "Железный человек",
+    "title_en": "Iron Man",
+    "year": 2008,
+    "universe": "Кинематографическая вселенная Марвел",
+    "franchise": "Железный человек",
+    "studio": "Marvel Studios",
+    "categories": [
+      "боевик",
+      "фантастика",
+      "приключения",
+      "супергероика"
+    ],
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "quality": "4K",
+    "description": {
+      "ru": "Миллиардер и гениальный изобретатель Тони Старк создает высокотехнологичную броню, чтобы спасти свою жизнь и защитить мир от зла.",
+      "en": "Billionaire and genius inventor Tony Stark creates a high-tech suit of armor to save his life and protect the world from evil."
+    },
+    "desc": "Миллиардер и гениальный изобретатель Тони Старк создает высокотехнологичную броню, чтобы спасти свою жизнь и защитить мир от зла.",
+    "poster": null,
+    "video": null,
+    "watched": false,
+    "upcoming": false,
+    "rating": 8,
+    "era": "Сага Бесконечности",
+    "timeline": 2008,
+    "seasons": [],
+    "createdAt": "2024-01-10T12:00:00.000Z",
+    "updatedAt": "2026-10-13T09:37:11.546Z"
+  },
+  {
+    "id": "the-avengers-2012",
+    "type": "movie",
+    "title_ru": "Мстители",
+    "title_en": "The Avengers",
+    "year": 2012,
+    "universe": "Кинематографическая вселенная Марвел",
+    "franchise": "Мстители",
+    "studio": "Marvel Studios",
+    "categories": [
+      "боевик",
+      "фантастика",
+      "приключения",
+      "супергероика"
+    ],
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "quality": "4K",
+    "description": {
+      "ru": "Команда супергероев собирается вместе, чтобы остановить Локи и его армию читаури от порабощения Земли.",
+      "en": "A team of superheroes assembles to stop Loki and his Chitauri army from enslaving Earth."
+    },
+    "desc": "Команда супергероев собирается вместе, чтобы остановить Локи и его армию читаури от порабощения Земли.",
+    "poster": null,
+    "video": null,
+    "watched": false,
+    "upcoming": false,
+    "rating": 9,
+    "era": "Сага Бесконечности",
+    "timeline": 2012,
+    "seasons": [],
+    "createdAt": "2024-01-10T12:05:00.000Z",
+    "updatedAt": "2026-10-13T09:37:12.584Z"
+  },
+  {
+    "id": "guardians-of-the-galaxy-2014",
+    "type": "movie",
+    "title_ru": "Стражи Галактики",
+    "title_en": "Guardians of the Galaxy",
+    "year": 2014,
+    "universe": "Кинематографическая вселенная Марвел",
+    "franchise": "Стражи Галактики",
+    "studio": "Marvel Studios",
+    "categories": [
+      "боевик",
+      "фантастика",
+      "комедия",
+      "приключения"
+    ],
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Comedy",
+      "Adventure"
+    ],
+    "quality": "4K",
+    "description": {
+      "ru": "Группа межгалактических преступников вынуждена объединиться, чтобы остановить фанатика, намеревающегося уничтожить вселенную.",
+      "en": "A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe."
+    },
+    "desc": "Группа межгалактических преступников вынуждена объединиться, чтобы остановить фанатика, намеревающегося уничтожить вселенную.",
+    "poster": null,
+    "video": null,
+    "watched": false,
+    "upcoming": false,
+    "rating": 9,
+    "era": "Сага Бесконечности",
+    "timeline": 2014,
+    "seasons": [],
+    "createdAt": "2024-01-10T12:10:00.000Z",
+    "updatedAt": "2026-10-13T09:37:13.768Z"
+  },
+  {
+    "id": "captain-america-civil-war-2016",
+    "type": "movie",
+    "title_ru": "Первый мститель: Противостояние",
+    "title_en": "Captain America: Civil War",
+    "year": 2016,
+    "universe": "Кинематографическая вселенная Марвел",
+    "franchise": "Мстители",
+    "studio": "Marvel Studios",
+    "categories": [
+      "боевик",
+      "фантастика",
+      "приключения",
+      "супергероика"
+    ],
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "quality": "4K",
+    "description": {
+      "ru": "Вмешательство правительства в дела Мстителей приводит к расколу команды на два лагеря: один возглавляет Стив Роджерс, другой — Тони Старк.",
+      "en": "Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man."
+    },
+    "desc": "Вмешательство правительства в дела Мстителей приводит к расколу команды на два лагеря: один возглавляет Стив Роджерс, другой — Тони Старк.",
+    "poster": null,
+    "video": null,
+    "watched": false,
+    "upcoming": false,
+    "rating": 9,
+    "era": "Сага Бесконечности",
+    "timeline": 2016,
+    "seasons": [],
+    "createdAt": "2024-01-10T12:15:00.000Z",
+    "updatedAt": "2026-10-13T09:37:07.277Z"
+  },
+  {
+    "id": "spider-man-homecoming-2017",
+    "type": "movie",
+    "title_ru": "Человек-паук: Возвращение домой",
+    "title_en": "Spider-Man: Homecoming",
+    "year": 2017,
+    "universe": "Кинематографическая вселенная Марвел",
+    "franchise": "Человек-паук",
+    "studio": "Marvel Studios, Columbia Pictures",
+    "categories": [
+      "боевик",
+      "фантастика",
+      "приключения",
+      "комедия"
+    ],
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure",
+      "Comedy"
+    ],
+    "quality": "4K",
+    "description": {
+      "ru": "Подросток Питер Паркер пытается совместить жизнь обычного школьника и супергероя Человека-паука под присмотром Тони Старка.",
+      "en": "Teenager Peter Parker struggles to balance his life as an ordinary high school student and the superhero Spider-Man under Tony Stark's mentorship."
+    },
+    "desc": "Подросток Питер Паркер пытается совместить жизнь обычного школьника и супергероя Человека-паука под присмотром Тони Старка.",
+    "poster": null,
+    "video": null,
+    "watched": false,
+    "upcoming": false,
+    "rating": 8,
+    "era": "Сага Бесконечности",
+    "timeline": 2016,
+    "seasons": [],
+    "createdAt": "2024-01-10T12:20:00.000Z",
+    "updatedAt": "2026-10-13T09:37:08.094Z"
+  },
+  {
+    "id": "black-panther-2018",
+    "type": "movie",
+    "title_ru": "Чёрная пантера",
+    "title_en": "Black Panther",
+    "year": 2018,
+    "universe": "Кинематографическая вселенная Марвел",
+    "franchise": "Чёрная пантера",
+    "studio": "Marvel Studios",
+    "categories": [
+      "боевик",
+      "фантастика",
+      "приключения",
+      "драма"
+    ],
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure",
+      "Drama"
+    ],
+    "quality": "4K",
+    "description": {
+      "ru": "Т'Чалла возвращается домой в изолированную технологически развитую страну Ваканду, чтобы занять трон после смерти отца, но сталкивается с вызовом со стороны мощного врага.",
+      "en": "T'Challa returns home to the isolated, technologically advanced African nation of Wakanda to take his place as king, but faces a challenge from a powerful enemy."
+    },
+    "desc": "Т'Чалла возвращается домой в изолированную технологически развитую страну Ваканду, чтобы занять трон после смерти отца, но сталкивается с вызовом со стороны мощного врага.",
+    "poster": null,
+    "video": null,
+    "watched": false,
+    "upcoming": false,
+    "rating": 9,
+    "era": "Сага Бесконечности",
+    "timeline": 2016,
+    "seasons": [],
+    "createdAt": "2024-01-10T12:25:00.000Z",
+    "updatedAt": "2026-10-13T09:37:08.840Z"
+  },
+  {
+    "id": "avengers-infinity-war-2018",
+    "type": "movie",
+    "title_ru": "Мстители: Война бесконечности",
+    "title_en": "Avengers: Infinity War",
+    "year": 2018,
+    "universe": "Кинематографическая вселенная Марвел",
+    "franchise": "Мстители",
+    "studio": "Marvel Studios",
+    "categories": [
+      "боевик",
+      "фантастика",
+      "приключения",
+      "супергероика"
+    ],
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "quality": "4K",
+    "description": {
+      "ru": "Мстители и их союзники должны быть готовы пожертвовать всем, чтобы противостоять могущественному Таносу, пока его опустошительная миссия не привела к разрушению всей вселенной.",
+      "en": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
+    },
+    "desc": "Мстители и их союзники должны быть готовы пожертвовать всем, чтобы противостоять могущественному Таносу, пока его опустошительная миссия не привела к разрушению всей вселенной.",
+    "poster": null,
+    "video": null,
+    "watched": false,
+    "upcoming": false,
+    "rating": 10,
+    "era": "Сага Бесконечности",
+    "timeline": 2018,
+    "seasons": [],
+    "createdAt": "2024-01-10T12:30:00.000Z",
+    "updatedAt": "2026-10-13T09:37:09.465Z"
+  },
+  {
+    "id": "spider-man-no-way-home-2021",
+    "type": "movie",
+    "title_ru": "Человек-паук: Нет пути домой",
+    "title_en": "Spider-Man: No Way Home",
+    "year": 2021,
+    "universe": "Кинематографическая вселенная Марвел",
+    "franchise": "Человек-паук",
+    "studio": "Marvel Studios, Columbia Pictures",
+    "categories": [
+      "боевик",
+      "фантастика",
+      "приключения",
+      "супергероика"
+    ],
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "quality": "4K",
+    "description": {
+      "ru": "Питер Паркер обращается за помощью к Доктору Стрэнджу, чтобы вернуть свою тайну личности, но заклинание идет не так, открывая мультивселенную.",
+      "en": "Peter Parker seeks help from Doctor Strange to make the world forget his secret identity, but the spell goes wrong, opening up the multiverse."
+    },
+    "desc": "Питер Паркер обращается за помощью к Доктору Стрэнджу, чтобы вернуть свою тайну личности, но заклинание идет не так, открывая мультивселенную.",
+    "poster": null,
+    "video": null,
+    "watched": false,
+    "upcoming": false,
+    "rating": 10,
+    "era": "Сага Мультивселенной",
+    "timeline": 2021,
+    "seasons": [],
+    "createdAt": "2024-01-10T12:35:00.000Z",
+    "updatedAt": "2026-10-13T09:37:10.072Z"
+  },
+  {
+    "id": "doctor-strange-multiverse-of-madness-2022",
+    "type": "movie",
+    "title_ru": "Доктор Стрэндж: В мультивселенной безумия",
+    "title_en": "Doctor Strange in the Multiverse of Madness",
+    "year": 2022,
+    "universe": "Кинематографическая вселенная Марвел",
+    "franchise": "Доктор Стрэндж",
+    "studio": "Marvel Studios",
+    "categories": [
+      "ужасы",
+      "фантастика",
+      "приключения",
+      "супергероика"
+    ],
+    "genres": [
+      "Horror",
+      "Sci-Fi",
+      "Adventure",
+      "Action"
+    ],
+    "quality": "4K",
+    "description": {
+      "ru": "Доктор Стрэндж объединяется с девушкой-подростком, обладающей способностью путешествовать по мультивселенной, чтобы противостоять новым угрозам.",
+      "en": "Doctor Strange teams up with a teenage girl who has the ability to travel across the multiverse to face new threats."
+    },
+    "desc": "Доктор Стрэндж объединяется с девушкой-подростком, обладающей способностью путешествовать по мультивселенной, чтобы противостоять новым угрозам.",
+    "poster": null,
+    "video": null,
+    "watched": false,
+    "upcoming": false,
+    "rating": 7,
+    "era": "Сага Мультивселенной",
+    "timeline": 2021,
+    "seasons": [],
+    "createdAt": "2024-01-10T12:40:00.000Z",
+    "updatedAt": "2026-10-13T09:37:00.709Z"
+  },
+  {
+    "id": "guardians-of-the-galaxy-vol-3-2023",
+    "type": "movie",
+    "title_ru": "Стражи Галактики. Часть 3",
+    "title_en": "Guardians of the Galaxy Vol. 3",
+    "year": 2023,
+    "universe": "Кинематографическая вселенная Марвел",
+    "franchise": "Стражи Галактики",
+    "studio": "Marvel Studios",
+    "categories": [
+      "боевик",
+      "фантастика",
+      "комедия",
+      "драма"
+    ],
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Comedy",
+      "Drama"
+    ],
+    "quality": "4K",
+    "description": {
+      "ru": "Стражи Галактики отправляются в опасную миссию, чтобы спасти жизнь Ракеты и защитить свою команду.",
+      "en": "The Guardians of the Galaxy embark on a dangerous mission to save Rocket's life and protect their team."
+    },
+    "desc": "Стражи Галактики отправляются в опасную миссию, чтобы спасти жизнь Ракеты и защитить свою команду.",
+    "poster": null,
+    "video": null,
+    "watched": false,
+    "upcoming": false,
+    "rating": 9,
+    "era": "Сага Мультивселенной",
+    "timeline": 2023,
+    "seasons": [],
+    "createdAt": "2024-01-10T12:45:00.000Z",
+    "updatedAt": "2026-10-13T09:37:06.141Z"
+  },
+  {
+    "id": "deadpool-and-wolverine-2024",
+    "type": "movie",
+    "title_ru": "Дэдпул и Росомаха",
+    "title_en": "Deadpool & Wolverine",
+    "year": 2024,
+    "universe": "Кинематографическая вселенная Марвел",
+    "franchise": "Дэдпул",
+    "studio": "Marvel Studios",
+    "categories": [
+      "боевик",
+      "фантастика",
+      "комедия",
+      "супергероика"
+    ],
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Comedy"
+    ],
+    "quality": "4K",
+    "description": {
+      "ru": "Дэдпул объединяется с Росомахой, чтобы спасти свою вселенную от вымирания, путешествуя по мультивселенной.",
+      "en": "Deadpool teams up with Wolverine to save his universe from extinction by traveling through the multiverse."
+    },
+    "desc": "Дэдпул объединяется с Росомахой, чтобы спасти свою вселенную от вымирания, путешествуя по мультивселенной.",
+    "poster": null,
+    "video": null,
+    "watched": false,
+    "upcoming": false,
+    "rating": 8,
+    "era": "Сага Мультивселенной",
+    "timeline": 2024,
+    "seasons": [],
+    "createdAt": "2024-01-10T12:50:00.000Z",
+    "updatedAt": "2026-10-13T09:37:00.709Z"
+  },
+  {
+    "id": "loki-series-2021",
+    "type": "series",
+    "title_ru": "Локи",
+    "title_en": "Loki",
+    "year": 2021,
+    "universe": "Кинематографическая вселенная Марвел",
+    "franchise": "Локи",
+    "studio": "Marvel Studios",
+    "categories": [
+      "фантастика",
+      "приключения",
+      "драма",
+      "фэнтези"
+    ],
+    "genres": [
+      "Sci-Fi",
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "quality": "4K",
+    "description": {
+      "ru": "Бог хитрости Локи попадает в Управление временными изменениями после кражи Тессеракта во время событий фильма «Мстители» (2012).",
+      "en": "The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of Avengers: Endgame."
+    },
+    "desc": "Бог хитрости Локи попадает в Управление временными изменениями после кражи Тессеракта во время событий фильма «Мстители» (2012).",
+    "poster": null,
+    "video": null,
+    "watched": false,
+    "upcoming": false,
+    "rating": 9,
+    "era": "Сага Мультивселенной",
+    "timeline": 2012,
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "title_ru": "Славная цель",
+            "title_en": "Glorious Purpose",
+            "watched": true
+          },
+          {
+            "number": 2,
+            "title_ru": "Вариант",
+            "title_en": "The Variant",
+            "watched": true
+          },
+          {
+            "number": 3,
+            "title_ru": "Ламентис",
+            "title_en": "Lamentis",
+            "watched": true
+          },
+          {
+            "number": 4,
+            "title_ru": "Событие Нексуса",
+            "title_en": "The Nexus Event",
+            "watched": true
+          },
+          {
+            "number": 5,
+            "title_ru": "Путешествие в тайну",
+            "title_en": "Journey into Mystery",
+            "watched": true
+          },
+          {
+            "number": 6,
+            "title_ru": "Ради всех времён. Всегда.",
+            "title_en": "For All Time. Always.",
+            "watched": true
+          }
+        ]
+      },
+      {
+        "season": 2,
+        "episodes": [
+          {
+            "number": 1,
+            "title_ru": "Уроборос",
+            "title_en": "Ouroboros",
+            "watched": true
+          },
+          {
+            "number": 2,
+            "title_ru": "Устрашение",
+            "title_en": "Breaking Brad",
+            "watched": true
+          },
+          {
+            "number": 3,
+            "title_ru": "Сердце Храма",
+            "title_en": "Heart of the TVA",
+            "watched": true
+          },
+          {
+            "number": 4,
+            "title_ru": "Возрождение",
+            "title_en": "Heart of the TVA",
+            "watched": false
+          },
+          {
+            "number": 5,
+            "title_ru": "Научно-фантастический ужас",
+            "title_en": "Science/Fiction",
+            "watched": false
+          },
+          {
+            "number": 6,
+            "title_ru": "Славная цель",
+            "title_en": "Glorious Purpose",
+            "watched": false
+          }
+        ]
+      }
+    ],
+    "createdAt": "2024-01-10T12:55:00.000Z",
+    "updatedAt": "2026-10-13T09:37:05.450Z"
+  },
+  {
+    "id": "wandavision-2021",
+    "type": "series",
+    "title_ru": "Ванда/Вижн",
+    "title_en": "WandaVision",
+    "year": 2021,
+    "universe": "Кинематографическая вселенная Марвел",
+    "franchise": "Ванда/Вижн",
+    "studio": "Marvel Studios",
+    "categories": [
+      "фантастика",
+      "драма",
+      "комедия",
+      "супергероика"
+    ],
+    "genres": [
+      "Sci-Fi",
+      "Drama",
+      "Comedy",
+      "Action"
+    ],
+    "quality": "4K",
+    "description": {
+      "ru": "Ванда Максимофф и Вижн живут идеализированной пригородной жизнью, но начинают подозревать, что с их реальностью что-то не так.",
+      "en": "Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision live idealized suburban lives."
+    },
+    "desc": "Ванда Максимофф и Вижн живут идеализированной пригородной жизнью, но начинают подозревать, что с их реальностью что-то не так.",
+    "poster": null,
+    "video": null,
+    "watched": false,
+    "upcoming": false,
+    "rating": 9,
+    "era": "Сага Мультивселенной",
+    "timeline": 2023,
+    "seasons": [
+      {
+        "season": 1,
+        "episodes": [
+          {
+            "number": 1,
+            "title_ru": "Снято на плёнку",
+            "title_en": "Filmed Before a Live Studio Audience",
+            "watched": true
+          },
+          {
+            "number": 2,
+            "title_ru": "Не переключайтесь",
+            "title_en": "Don't Touch That Dial",
+            "watched": true
+          },
+          {
+            "number": 3,
+            "title_ru": "В новом цвете",
+            "title_en": "Now in Color",
+            "watched": true
+          },
+          {
+            "number": 4,
+            "title_ru": "Мы прерываем нашу программу",
+            "title_en": "We Interrupt This Program",
+            "watched": true
+          },
+          {
+            "number": 5,
+            "title_ru": "На очень особом выпуске...",
+            "title_en": "On a Very Special Episode...",
+            "watched": true
+          },
+          {
+            "number": 6,
+            "title_ru": "Полностью в новом цвете",
+            "title_en": "All-New Halloween Spooktacular!",
+            "watched": true
+          },
+          {
+            "number": 7,
+            "title_ru": "Разрывая четвёртую стену",
+            "title_en": "Breaking the Fourth Wall",
+            "watched": true
+          },
+          {
+            "number": 8,
+            "title_ru": "Ранее в...",
+            "title_en": "Previously On",
+            "watched": true
+          },
+          {
+            "number": 9,
+            "title_ru": "Серийный финал",
+            "title_en": "The Series Finale",
+            "watched": true
+          }
+        ]
+      }
+    ],
+    "createdAt": "2024-01-10T13:00:00.000Z",
+    "updatedAt": "2026-10-13T09:37:04.637Z"
+  },
+  {
+    "id": "avengers-secret-wars-2027",
+    "type": "movie",
+    "title_ru": "Мстители: Секретные войны",
+    "title_en": "Avengers: Secret Wars",
+    "year": 2027,
+    "universe": "Кинематографическая вселенная Марвел",
+    "franchise": "Мстители",
+    "studio": "Marvel Studios",
+    "categories": [
+      "боевик",
+      "фантастика",
+      "приключения",
+      "супергероика"
+    ],
+    "genres": [
+      "Action",
+      "Sci-Fi",
+      "Adventure"
+    ],
+    "quality": "other",
+    "description": {
+      "ru": "Финал Саги Мультивселенной. Герои со всех реальностей объединяются для последней битвы.",
+      "en": "The culmination of the Multiverse Saga. Heroes from all realities unite for a final battle."
+    },
+    "desc": "Финал Саги Мультивселенной. Герои со всех реальностей объединяются для последней битвы.",
+    "poster": null,
+    "video": null,
+    "watched": false,
+    "upcoming": true,
+    "rating": null,
+    "era": "Сага Мультивселенной",
+    "timeline": 2027,
+    "seasons": [],
+    "createdAt": "2024-01-10T13:05:00.000Z",
+    "updatedAt": "2026-10-13T09:37:00.709Z"
+  }
+]
