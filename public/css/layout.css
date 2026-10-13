@@ -55,7 +55,6 @@
 .stat-chip:hover { transform: translate(-2px, -2px); box-shadow: 5px 5px 0 var(--ink-black); }
 .stat-chip.watched-chip { background: var(--marvel-yellow); }
 .stat-chip.unwatched-chip { background: #FF9F43; }
-.stat-chip.upcoming-chip { background: var(--marvel-blue-bright); color: var(--white); }
 
 .stat-num { font-family: var(--font-title); font-size: 2rem; line-height: 1; letter-spacing: 1px; }
 .stat-lbl { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; opacity: 0.8; }

@@ -49,7 +49,6 @@ export function renderCatalog(viewMode) {
                 ${item.quality && item.quality !== 'other' ? `<span class="badge-quality q-${item.quality}" title="Качество: ${item.quality}">${item.quality}</span>` : ''}
                 ${item.era ? `<span class="badge-era">${item.era}</span>` : ''}
                 ${item.watched ? `<span class="badge-watched" data-action="toggle-watched" title="Просмотрено (клик — снять)">✓</span>` : ''}
-                ${item.upcoming ? `<span class="badge-upcoming">Скоро</span>` : ''}
                 ${item.video ? `<span class="badge-installed" title="Файл установлен">📁</span>` : ''}
             </div>
             <div class="card-body">

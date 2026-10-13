@@ -6,14 +6,12 @@ export function renderStats() {
     const items = getItems();
     const total = items.length;
     const watched = items.filter(i => i.watched).length;
-    const unwatched = items.filter(i => !i.watched && !i.upcoming).length;
-    const upcoming = items.filter(i => i.upcoming).length;
+    const unwatched = items.filter(i => !i.watched).length;
     const percent = total ? Math.round((watched / total) * 100) : 0;
 
     animateNum('stat-total', total);
     animateNum('stat-watched', watched);
     animateNum('stat-unwatched', unwatched);
-    animateNum('stat-upcoming', upcoming);
 
     setTimeout(() => {
         document.getElementById('progress-bar').style.width = `${percent}%`;
@@ -23,7 +21,7 @@ export function renderStats() {
 
 export function renderNextUp() {
     const items = getItems();
-    const nextItem = items.find(i => !i.watched && !i.upcoming && i.video);
+    const nextItem = items.find(i => !i.watched && i.video);
     const section = document.getElementById('next-up-section');
     const container = document.getElementById('next-up-card');
 
