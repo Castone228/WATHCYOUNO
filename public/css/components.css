@@ -162,23 +162,6 @@
 .badge-watched:hover { transform: scale(1.15) rotate(-10deg); }
 .card-poster-wrap .badge-era ~ .badge-watched { top: 44px; }
 
-.badge-upcoming {
-    position: absolute;
-    bottom: 10px; left: -6px; right: -6px;
-    background: var(--marvel-yellow);
-    color: var(--ink-black);
-    border: 2px solid var(--ink-black);
-    padding: 4px 8px;
-    font-family: var(--font-title);
-    font-size: 0.9rem;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transform: rotate(-2deg);
-    box-shadow: 2px 2px 0 var(--ink-black);
-    z-index: 5;
-}
-
 .badge-installed {
     position: absolute;
     bottom: 8px; right: 8px;
@@ -192,7 +175,6 @@
     box-shadow: 2px 2px 0 var(--ink-black);
     z-index: 5;
 }
-.card-poster-wrap .badge-upcoming ~ .badge-installed { bottom: 44px; }
 
 .card-body { padding: 12px; flex: 1; display: flex; flex-direction: column; }
 .card-title {
@@ -242,8 +224,7 @@
 .catalog-grid.view-list .card-actions { margin-top: 0; flex: 0 0 auto; }
 .catalog-grid.view-list .card-btn { padding: 6px 10px; }
 .catalog-grid.view-list .badge-quality { width: 36px; height: 36px; font-size: 0.5rem; }
-.catalog-grid.view-list .badge-era,
-.catalog-grid.view-list .badge-upcoming { display: none; }
+.catalog-grid.view-list .badge-era { display: none; }
 .catalog-grid.view-list .badge-installed { bottom: 6px; right: 6px; width: 22px; height: 22px; font-size: 11px; }
 
 @media (max-width: 640px) {
